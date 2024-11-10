@@ -1,0 +1,38 @@
+/* #contenedor {
+    color: green;
+    font-family: cursive;
+    font-size: 1.5rem;
+} */
+
+body {
+    margin: 0px;
+}
+
+#cabecera {
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom: 20px;
+}
+
+#padre {
+    background-color: green;
+    width: 100vw;
+    /* % es con respecto al padre, vw es con respecto a la pantalla */
+}
+
+#hijo1 {
+    background-color: brown;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#hijo2 {
+    background-color: grey;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
