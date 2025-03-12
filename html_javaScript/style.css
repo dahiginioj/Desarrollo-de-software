@@ -1,0 +1,11 @@
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.card {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

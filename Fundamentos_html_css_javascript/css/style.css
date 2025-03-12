@@ -48,7 +48,8 @@ img {
 
 #titulo {
     margin: 0px;
-    animation: mover 4s ease-in-out infinite;
+    /*animation: mover 4s ease-in-out infinite;*/
+    animation: mover 4s;
 }
 
 @keyframes mover {
